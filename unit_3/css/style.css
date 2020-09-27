@@ -1,0 +1,15 @@
+body{
+background: url("images/chopping_board.png");
+background-size: cover;
+font-family: arial
+}
+
+h1, p, ul {color: white;
+}
+h1, p, ul {text-align: center;}
+hr {width: 600px}
+div {
+	height: 100px
+	width: 200px
+	background-color: #ee3e80;
+}
