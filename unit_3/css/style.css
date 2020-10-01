@@ -4,12 +4,11 @@ background-size: cover;
 font-family: arial
 }
 
-h1, p, ul {color: white;
-}
-h1, p, ul {text-align: center;}
+h1, p, ul, li {color: white;}
+h1 {font-size: 50px;}
+#slogan {color: #F16c01; font-style: italic; font-size: 30px;}
+#list {list-style-position: inside;}
+h1, p, ul, li {text-align: center}
 hr {width: 600px}
-div {
-	height: 100px
-	width: 200px
-	background-color: #ee3e80;
+
 }
