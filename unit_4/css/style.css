@@ -1,0 +1,16 @@
+body{
+background: url("images/concrete_background.jpg");
+background-attachment: fixed;
+font-family: @import url(https://fonts.googleapis.com/css2?family=Fredoka+One&family=Source+Sans+Pro:wght@400;900&display=swap);
+font-size: 25px;
+text-align: center;
+}
+h1 {font-family:'Fredoka One'; color: white; font-size: 2em;
+}
+p, ul, li, a {font-family: 'Source Sans Pro', sans-serif;}
+p, ul, li {color: white;}
+#slogan {color: #F16c01; font-weight: bold; font-style: italic; font-size: 1.5em;}
+.article {width: 250px; background-color: #7F8286; opacity: 50%}
+#list {list-style-position: inside; background-color: #7F8286; opacity: 50%; width: 250px}
+hr {width: 600px}
+a:hover {color: #F16c01}
