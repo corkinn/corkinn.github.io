@@ -1,0 +1,67 @@
+body{
+background-color: #E9F0E8;
+background-attachment: fixed;
+font-family: @import url(https://fonts.googleapis.com/css2?family=Fredoka+One&family=Source+Sans+Pro:wght@400;900&display=swap);
+font-size: 25px;
+text-align: center;
+}
+h1 {font-family:'Fredoka One'; color: #434041; font-size: 2em;
+}
+h2, h3 {font-family: 'Fredoka One'; color: #434041; font-size: 1.4em;
+}
+p, ul, li, a {font-family: 'Source Sans Pro', sans-serif;}
+p, ul, li {color: black;}
+#slogan {color: #F16c01; font-weight: bold; font-size: 1.2em;}
+.wrapper {
+	border:	1px black solid;
+}
+header {
+	background-color: #E9F0E8;
+	padding: 20px;
+}
+.logo_image{
+	width: 600px
+	height: 200px;
+}
+nav {
+	background-color: #86A082;
+	padding: 20px;
+}
+ul {
+	display: inline-grid;
+}
+#two_column {
+	background-color: #FFFFFF;
+	outline: 1px black solid;
+	padding: 2%
+}
+#left {
+	background-color: #E9F0E8;
+	border: 1px black solid;
+	padding: 2%;
+	float: left;
+	width: 70%;
+}
+#right {
+	background-color: #E9F0E8;
+	border: 1px black solid;
+	padding: 2%;
+	float: right;
+	width: 20%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+footer {
+	background-color: #E9F0E8;
+	padding: 20px;
+}
+#list {list-style-position: inside; background-color: #7F8286; opacity: 50%; width: 250px}
+hr {width: 600px}
+a:hover {color: #F16c01}
